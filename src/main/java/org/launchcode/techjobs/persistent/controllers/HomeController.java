@@ -23,7 +23,6 @@ import java.util.Optional;
  * Created by LaunchCode
  */
 @Controller
-//@RequestMapping("/jobs")
 public class HomeController {
 
     @Autowired
