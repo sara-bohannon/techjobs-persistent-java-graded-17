@@ -53,8 +53,6 @@ public class HomeController {
     }
 
 
-    //need clarity
-
 
     @PostMapping("add")
     public String processAddJobForm(

@@ -20,7 +20,6 @@ public abstract class AbstractEntity {
     @NotBlank(message = "Name cannot be blank")
     @Size(max = 100, message = "Name cannot be longer than 100 characters")
     private String name;
-//should this getter be before the validation annotation?
 
     public int getId() {
         return id;

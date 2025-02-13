@@ -46,7 +46,7 @@ public class SkillController {
         return "redirect:";
     }
 
-//is it skills or skill???*****************
+
     @GetMapping("view/{skillId}")
     public String displayViewSkill(Model model, @PathVariable int skillId) {
 
