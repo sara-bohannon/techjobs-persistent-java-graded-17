@@ -16,15 +16,11 @@ public class Job extends AbstractEntity {
     private Employer employer;
 
     @ManyToMany
-
     private List<Skill> skills = new ArrayList<>();
-
 
 
     public Job() {
     }
-
-
 
     // Initialize the id and value fields.
     public Job(Employer employer, List<Skill> skills) {
