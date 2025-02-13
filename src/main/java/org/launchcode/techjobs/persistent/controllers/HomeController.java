@@ -51,8 +51,6 @@ public class HomeController {
         return "/add";
     }
 
-
-
     @PostMapping("add")
     public String processAddJobForm(
             @ModelAttribute @Valid Job newJob,
